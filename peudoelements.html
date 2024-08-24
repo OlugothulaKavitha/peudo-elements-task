@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .top{
+        background-color:white;
+        width:120vw;
+        border:1px;
+        cursor:pointer;
+       position:fixed;
+       top:0px;
+       z-index:1;
+       }
+        .img{
+            width:100%;
+            height:100vh;
+            border:2vh;
+            position: absolute;
+        }
+          .a{
+            margin-left:0cm;
+            /* position: fixed; */
+          }  
+          .a:hover{
+            background-color: rgb(175, 186, 178);
+          } 
+          .a::after{
+            content:'🏠' ;
+
+          }
+        .b{
+             position: relative;
+            position: fixed;
+             left:10cm;
+            }
+            .b:hover{
+          background-color:rgb(175, 186, 178);
+            }
+       
+       .b::before{
+         content:'📌';
+       }
+
+       .c{
+        position:relative; 
+        /* position: fixed; */
+        left:12cm;
+         }
+         .c:hover{
+          background-color:rgb(175, 186, 178);
+         }
+       
+       .c::before{
+         content:'👤';
+       }
+
+       .d{
+         position: relative; 
+        /* position: fixed; */
+         left:18cm;
+            }
+       
+       .d::after{
+         content:'🕿';
+       }
+       .d:hover{
+       background-color:rgb(175, 186, 178);
+       }
+       /* top:hover{ 
+        background-color: rgb(171, 179, 186);
+     } */
+      .f{
+       position:absolute; 
+       bottom:300px;
+       padding:10px;
+       left:500px;
+       color:white;
+       border-radius:20px;
+       z-index:1;
+       /* position: absolute; */
+         }
+
+</style>
+</head>
+<body>
+    <div class="top">
+        <span class="a">BR Architecture </span>
+         <span class="b"> Projects</span>
+         <span class="c">About us</span>
+         <span class="d">Contacts</span>
+         </div><br>
+    <div class="img">
+    <img src="./architect.jpg" alt="" class="img">
+    <span class="f"><h1><span style="background-color: black; font-size: 50px;">BR</span> <span style="font-size: 50px;">Architechure</span></h1></span>
+</div>
+</body>
+</html>
